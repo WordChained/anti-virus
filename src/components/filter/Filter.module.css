@@ -1,0 +1,22 @@
+.filterContainer {
+  display: flex;
+  gap: 5px;
+  /* max-width: 400px; */
+  width: 100%;
+  align-self: center;
+  background-color: var(--orange);
+  padding: 5px;
+  border-radius: 5px;
+}
+.filterContainer input {
+  height: 30px;
+  flex: 4;
+  max-width: 400px;
+  border: none;
+}
+.filterContainer select {
+  height: 30px;
+  flex: 1;
+  max-width: 200px;
+  border: none;
+}

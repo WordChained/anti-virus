@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+:root {
+  --orange: rgb(247, 162, 34);
+  --green: rgb(19, 196, 96);
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: "✔ ";
+}
